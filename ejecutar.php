@@ -4,7 +4,7 @@
 <body>
 <?php
 if (isset($_POST['btn']) && $_POST['btn'] == 'Crear Archivo txt') {
-    $archivo = fopen("ArchivoTXT", "w+b");
+    $archivo = fopen("ArchivoTXT.txt", "w+b");
     if ($archivo == false) {
         echo "Error al crear el archivo";
     } else {
