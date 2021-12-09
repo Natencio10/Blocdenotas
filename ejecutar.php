@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><title>CALCULO DEL AREA DEL OCTAGONO</title></head>
+<head><title>CREAR ARCHIVO TXT Y CARPETA</title></head>
 <body>
 <?php
 if (isset($_POST['btn']) && $_POST['btn'] == 'Crear Archivo txt') {
